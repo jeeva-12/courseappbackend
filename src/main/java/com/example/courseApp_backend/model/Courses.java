@@ -10,7 +10,7 @@ import jakarta.persistence.Table;
 @Table(name = "courses")
 public class Courses {
     @Id
-    @GeneratedValue
+    @GeneratedValue()
     private int id;
     private String courseTittle;
     private String courseDescription;
